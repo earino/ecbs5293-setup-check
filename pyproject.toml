@@ -1,0 +1,9 @@
+[project]
+name = "ecbs5293-setup-check"
+version = "0.1.0"
+description = "ECBS5293 pre-course setup check: proves uv sync + uv run + pandas work on your machine, and that VS Code can run a cell on the project kernel"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "ipykernel",
+]
